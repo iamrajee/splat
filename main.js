@@ -709,7 +709,8 @@ async function main() {
 	const url = new URL(
 		// "nike.splat",
 		// location.href,
-		params.get("url") || "train.splat",
+		// params.get("url") || "train.splat",
+		params.get("url") || "fox.splat",
 		"https://huggingface.co/iamrajee/my-gsplat-data/resolve/main/",
 		// "https://huggingface.co/cakewalk/splat-data/resolve/main/",
 	);
